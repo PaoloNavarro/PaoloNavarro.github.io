@@ -12,6 +12,13 @@ h6{
     font-weight: normal;
 }
 
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 h1{
     font-size: 40px;
     line-height: 1.5;
@@ -105,4 +112,10 @@ figure {
 
 .footer a{
     color: white;
+}
+
+.portfolio {
+    bottom: #fafafa;
+    padding: 20px;
+
 }
