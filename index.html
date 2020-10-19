@@ -9,88 +9,137 @@
     </head>
     <body>
         <header class="header">
-            <figure class="logo">
-                <img src="https://i.postimg.cc/3w4STKcf/logo.png" height="50" alt="Logo">
-            </figure>       
-            <nav class="menu">
-                <ol>
-                    <li>
-                        <a href="#Portafolio">Portafolio</a>
-                    </li>
-                    <li>
-                        <a href="#Experiencia">Experiencia</a>
-                    </li>
-                    <li>
-                        <a href="#Contacto">Trabajemos juntos</a>
-                    </li>
-                </ol>
-            </nav>
+            <div class="container">
+                <figure class="logo">
+                    <img src="https://i.postimg.cc/3w4STKcf/logo.png" height="50" alt="Logo">
+                </figure>       
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a href="#Portafolio">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#Experiencia">Experiencia</a>
+                        </li>
+                        <li>
+                            <a href="#Contacto">Trabajemos juntos</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
         </header>
         <section class="hero">
-            <h1>
-                !Hola soy <strong>Paolo Navarro </strong> <br> estudiante de: <br> Ingeniería en <strong>Desarrollo de Software</strong> 
-            </h1>
-            <!--<img src="https://i.postimg.cc/HxckXPkP/Portada.jpg" alt="Portada" width="200">-->
+            <div class="container">
+                <h1>
+                    !Hola soy <strong>Paolo Navarro </strong> <br> estudiante de: <br> Ingeniería en <strong>Desarrollo de Software</strong> 
+                </h1>
+                <img class="hero-image" src="https://i.postimg.cc/HxckXPkP/Portada.jpg" alt="Portada" width="500" height="300">
+            </div>
         </section>
         <section id="Portafolio" class="portfolio">
-            <h2>
-                Portafolio (mis proyectos destacados)
-            </h2>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title"> Proyecto Koha</h3>
-                    <h6 class="project-course">React native/ React </h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong> https://www.youtube.com/watch?v=xk7PM3x4DJ8&t=41s</small></p>
-                    <p class="project-description">Esta es una primera version de un video realizado para un proyecto educativo</p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" src="https://i.postimg.cc/GtP8TSMn/koha.png" alt="Koha" width="400px">
-                </figure>
-                
-            </article>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title"> Proyecto Koha</h3>
-                    <h6 class="project-course">React native/ React </h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong> https://www.youtube.com/watch?v=xk7PM3x4DJ8&t=41s</small></p>
-                    <p class="project-description">Esta es una primera version de un video realizado para un proyecto educativo</p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img class="project-image" src="https://i.postimg.cc/GtP8TSMn/koha.png" alt="Koha" width="400">
-                </figure>
-                
-            </article>
+            <div class="container">
+                <h2>
+                    Portafolio (mis proyectos destacados)
+                </h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title"> Proyecto Koha</h3>
+                        <h6 class="project-course">React native/ React </h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> https://www.youtube.com/watch?v=xk7PM3x4DJ8&t=41s</small></p>
+                        <p class="project-description">Esta es una primera version de un video realizado para un proyecto educativo</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="https://i.postimg.cc/GtP8TSMn/koha.png" alt="Koha" width="400px">
+                    </figure>
+                    
+                </article>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title"> Proyecto Koha</h3>
+                        <h6 class="project-course">React native/ React </h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> https://www.youtube.com/watch?v=xk7PM3x4DJ8&t=41s</small></p>
+                        <p class="project-description">Esta es una primera version de un video realizado para un proyecto educativo</p>
+                    </div>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" src="https://i.postimg.cc/GtP8TSMn/koha.png" alt="Koha" width="400px">
+                    </figure>
+                </article>
+            </div>
         </section>
-        <section id="Experiencia">
-            <h2>Mas sobre mi Experiencia:</h2>
-            <article class="experience">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="https://i.postimg.cc/hGKCXHpc/bloh.png" alt="Muestra del blog" width="700">
-                </figure>
-                <h3 class="experience-title" >Blog de pseudocodigo:</h3>
-                <p class="experience-description">En este blog encontrar informacion basica sobre Pseint</p>
-                <a class="experience-url"href="https://pseudocodigodlp.blogspot.com/p/inicio_18.html" target="_blank">Ver blog</a>
-            </article>
+        <div class="container"> 
+            <h2 class="experience-list-title">Mas sobre mi Experiencia:</h2>
+        </div> 
+        <section id="Experiencia" class="experience-list">
+            <div class="container">
+                <article class="experience">
+                    <figure class="experience-imageContainer">
+                        <img class="experience-image" src="https://i.postimg.cc/hGKCXHpc/bloh.png" alt="Muestra del blog">
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title" >Blog de pseudocodigo:</h3>
+                        <p class="experience-description">En este blog encontrar informacion basica sobre Pseint</p>
+                        <a class="experience-url"href="https://pseudocodigodlp.blogspot.com/p/inicio_18.html" target="_blank">Ver blog</a>
+                    </div>
+                </article>
+                <article class="experience">
+                    <figure class="experience-imageContainer">
+                        <img class="experience-image" src="https://i.postimg.cc/hGKCXHpc/bloh.png" alt="Muestra del blog">
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title" >Blog de pseudocodigo:</h3>
+                        <p class="experience-description">En este blog encontrar informacion basica sobre Pseint</p>
+                        <a class="experience-url"href="https://pseudocodigodlp.blogspot.com/p/inicio_18.html" target="_blank">Ver blog</a>
+                    </div>
+                </article>
+                <article class="experience">
+                    <figure class="experience-imageContainer">
+                        <img class="experience-image" src="https://i.postimg.cc/hGKCXHpc/bloh.png" alt="Muestra del blog">
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title" >Blog de pseudocodigo:</h3>
+                        <p class="experience-description">En este blog encontrar informacion basica sobre Pseint</p>
+                        <a class="experience-url"href="https://pseudocodigodlp.blogspot.com/p/inicio_18.html" target="_blank">Ver blog</a>
+                    </div>
+                </article>
+                <article class="experience">
+                    <figure class="experience-imageContainer">
+                        <img class="experience-image" src="https://i.postimg.cc/hGKCXHpc/bloh.png" alt="Muestra del blog">
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title" >Blog de pseudocodigo:</h3>
+                        <p class="experience-description">En este blog encontrar informacion basica sobre Pseint</p>
+                        <a class="experience-url"href="https://pseudocodigodlp.blogspot.com/p/inicio_18.html" target="_blank">Ver blog</a>
+                    </div>
+                </article>
+            </div>
         </section>
         <section id="Contacto" class="contact">
-            <h3>¿Creamos algo juntos?</h3>
-            <form action="/suscripcion/" class="form-email">
-                <input type="text" placeholder="Déjame tu email">
-                <input type="button" value="Enviar">
-            </form>
+            <div class="container">
+                <form action="/suscripcion/" class="form-email">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="Déjame tu email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a class="social-link facebook" href="https://www.facebook.com/paolo.navarro.560/"></a>
+                    <a class="social-link twitter"href="https://twitter.com/piorochimaru12"></a>
+                    <a class="social-link github"href="https://github.com/PaoloNavarro"></a>
+                    <a class="social-link instagram"href="https://www.instagram.com/isaac_nav04/"></a>
+                </div>
+            </div>
         </section>
         <footer class="footer">
-            <div>
-                <p>
-                    Proyecto del curso de Desarrollo web 2020 <img src="https://i.postimg.cc/3w4STKcf/logo.png" width="200px" alt="Ico">
-                </p>
-            </div>
-            <div>
-                <p>
-                    Desined with love <\3 by <a href="https://twitter.com/piorochimaru12" target="_blank">@piorochimaru12</a>
-                </p>
+            <div class="container">
+                <div>
+                    <p>Proyecto del curso de Desarrollo web 2020 <img src="https://i.postimg.cc/3w4STKcf/logo.png" width="200px" alt="Ico"></p>
+                </div>
+                <div>
+                    <p>
+                        Designed with <\3 by <a href="https://twitter.com/piorochimaru12" target="_blank">@piorochimaru12</a>
+                    </p>
+                </div>
             </div>
         </footer>
 
